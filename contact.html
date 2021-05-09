@@ -69,7 +69,7 @@
                     <!-- To use the contact form, your site must be on a live web host with PHP! The form will not work locally!-->
                     
                     <form action="mailto:someone@example.com" method="post" enctype="text/plain"><br>
-                        <input class="form-control" id="name" type="text" name="name" placeholder="Name" required><br>
+                        <input class="form-control" id="name" type="text" name="name" placeholder="Name" pattern="([A-zÀ-ž\s]){2,}" required><br>
                         <input class="form-control" 9d="mail"  type="text" name="mail" placeholder="Email" required><br>
                         <label for="mentor">Choose your Mentor</label>
                             <select class="form-control" id="mentor" name="mentor">
@@ -79,7 +79,7 @@
                                 <option value="thanh">Thanh</option>
                                 <option value="vanessa">Vanessa</option>
                             </select><br>
-                        <input class="form-control" id="message" type="text" name="message" size="50" placeholder="Message" required ><br>
+                        <input class="form-control" id="message" type="text" name="message" size="50" placeholder="Message" minlength="10" required ><br>
                         <input type="submit" value="Send" button class="btn btn-primary" id="sendMessageButton">
                     </form>
                 </div>

@@ -127,15 +127,15 @@
                     <div class="modal-body">
                         <form id="partnerContactForm">
                             <input class="form-control mb-2" type="text" name="partnerName" id="partnerName"
-                                aria-label="Full name" placeholder="Name &#42;" required>
+                                aria-label="Full name" placeholder="Name &#42;" pattern="([A-zÀ-ž\s]){2,}" required>
                             <input class="form-control mb-2" type="text" name="partnerOrganization"
                                 id="partnerOrganization" aria-label="Partner Organization"
-                                placeholder="Company / Organization &#42;" required>
+                                placeholder="Company / Organization &#42;" minlength="2" required>
                             <input class="form-control mb-2" type="tel" name="phone" id="phone"
-                                aria-label="Phone number" placeholder="Phone &#42;" required>
+                                aria-label="Phone number" placeholder="Phone &#42;" pattern="[0-9]{6}" required>
                             <input class="form-control mb-2" type="email" name="email" id="email"
                                 aria-label="Email address" placeholder="Email &#42;" required>
-                            <textarea class="form-control" rows="5" placeholder="Message &#42;" required></textarea>
+                            <textarea class="form-control" rows="5" placeholder="Message &#42;" minlength="10" required></textarea>
                             <input type="submit" class="btn btn-primary mt-3" value="Send">
                         </form>
                     </div>

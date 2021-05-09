@@ -95,6 +95,11 @@ section {
   z-index: 1;
 }
 
+/* forms */
+input:invalid {
+    border: 2px solid rgb(255, 0, 0);
+}
+
 /* footer */
 .footer-wrapper {
   background: linear-gradient(90deg, rgba(110,255,250,1) 0%, rgba(217,120,255,1) 100%);
