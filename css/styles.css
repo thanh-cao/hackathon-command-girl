@@ -135,3 +135,13 @@ section {
   background-color: #d978ff;
   border-color: #d978ff;
 }
+
+/* Mentor page */
+.partner-heading {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h5 {
+  color: #6eb9ff;
+}
