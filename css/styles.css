@@ -11,7 +11,7 @@ body {
   background-color: #fff;
 }
 
-/* colors, headings, buttons, spacing */
+/* colors, headings, buttons, spacing, divider */
 .btn-primary {
   background-color: #6eb9ff;
   border-color: transparent;
@@ -32,15 +32,27 @@ h1 {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 } 
-h2 {
+h2, h3 {
   color: #6eb9ff;
   font-weight: 600;
 }
-
+span.heading-small {
+  color: #212529;
+  font-size: 1rem;
+}
 section {
   padding-top: 5rem;
 }
-
+.divider-short {
+  width: 40%;
+  border-top: 1px solid #6eb9ff;
+}
+.divider-section {
+  width: 80%;               
+  background: linear-gradient(90deg,rgba(110, 255, 250, 1) 0%,rgba(217, 120, 255,1) 100%);
+  height: 2px;
+  margin-top: 5rem;
+}
 /* navbar */
 .logo-name {
   background: -webkit-linear-gradient(90deg,rgba(110, 255, 250, 1) 0%,rgba(217, 120, 255,1) 100%);
