@@ -28,7 +28,7 @@
 
 <body>
     <!-- Navigation-->
-   <header>
+    <header>
         <nav id="home" class="navbar navbar-expand-md fixed-top px-3">
             <a class="navbar-brand" href="index.html">
                 <div class="d-flex align-items-center">
@@ -65,7 +65,7 @@
             </div>
         </nav>
     </header>
-    
+
     <!-- Page Header invisible at the moment 
     <header class="masthead" style="background-image: url('assets/img/post-bg.jpg')">
         <div class="overlay"></div>
@@ -83,134 +83,195 @@
 -->
 
     <!-- Post Content-->
-        <section>
+    <section>
         <div class="container">
             <!--CREDIT: Content taken from webite and modified: https://www.women-in-tech-dublin.com/-->
             <div class="row">
-                <div class="col join">
-                    <!-- CREDIT: Icons made by "https://www.freepik.com"-->
-                    <h3 class="d-flex align-items-center"><img src="assets/img/inspire.png" alt="inspire-icon" style="width: 36px; margin-right: 4px;">Inspire:</h3>
-                    <p>Position yourself right in the middle of newglobal insight, mind-opening content and new industry best practices.</p>
+                <div class="col-12 col-md-3 join">
+                    <!-- CREDIT: Icons made by "https://www.freepik.com" and customised-->
+                    <h3 class="d-flex align-items-center"><img src="assets/img/inspire.png" alt="inspire-icon"
+                            style="width: 36px; margin-right: 4px;">Inspire:</h3>
+                    <p>Position yourself right in the middle of newglobal insight, mind-opening content and new industry
+                        best practices.</p>
                 </div>
-                <div class="col explore ">
-                    <!-- CREDIT: Icons made by "https://www.freepik.com"-->
-                    <h3 class="d-flex align-items-center"><img src="assets/img/network.png" alt="network-icon" style="width: 36px; margin-right: 4px;"> Networking:</h3>
-                    <p>Identify role models, connect with mentors and engage in global discussions. We have curated a multitude of networking approaches for all your needs</p>
+                <div class="col-12 col-md-3 explore ">
+                    <!-- CREDIT: Icons made by "https://www.freepik.com" and customised-->
+                    <h3 class="d-flex align-items-center"><img src="assets/img/network.png" alt="network-icon"
+                            style="width: 36px; margin-right: 4px;"> Networking:</h3>
+                    <p>Identify role models, connect with mentors and engage in global discussions. We have curated a
+                        multitude of networking approaches for all your needs</p>
                 </div>
-                <div class="col connect">
-                    <!-- CREDIT: Icons made by "https://www.freepik.com"-->
-                    <h3 class="d-flex align-items-center"><img src="assets/img/opportunities.png" alt="opportunities-icon" style="width: 36px; margin-right: 4px;"> Opportunities:</h3>
-                    <p>Immerse yourself in over 20 sessions curated to enhance your soft & technical skills, while engaging in holistic thought leadership to uncover the new paths in technology.</p>
+                <div class="col-12 col-md-3 connect">
+                    <!-- CREDIT: Icons made by "https://www.freepik.com" and customised-->
+                    <h3 class="d-flex align-items-center"><img src="assets/img/opportunities.png"
+                            alt="opportunities-icon" style="width: 36px; margin-right: 4px;"> Opportunities:</h3>
+                    <p>Immerse yourself in over 20 sessions curated to enhance your soft & technical skills, while
+                        engaging in holistic thought leadership to uncover the new paths in technology.</p>
                 </div>
-                <div class="col grow">
-                    <!-- CREDIT: Icons made by "https://www.freepik.com"-->
-                    <h3 class="d-flex align-items-center"><img src="assets/img/inclusivity.png" alt="inclusivity-icon" style="width: 36px; margin-right: 4px;"> Inclusivity:</h3>
-                    <p>As we rebuild our new normal with careful consideration, uncover and learn how to play an integral role in the repositoring & restructuring of an inclusive industry.</p>
+                <div class="col-12 col-md-3 grow">
+                    <!-- CREDIT: Icons made by "https://www.freepik.com" and customised-->
+                    <h3 class="d-flex align-items-center"><img src="assets/img/inclusivity.png" alt="inclusivity-icon"
+                            style="width: 36px; margin-right: 4px;"> Inclusivity:</h3>
+                    <p>As we rebuild our new normal with careful consideration, uncover and learn how to play an
+                        integral role in the repositoring & restructuring of an inclusive industry.</p>
                 </div>
             </div>
         </div>
-        <hr />
-    
+        <hr class="divider-section">
+
         <!--events cards-->
-        <div class="container">
-            <h1> Upcoming Events !</h1>
+        <div class="container-fluid">
+            <h1 class="partner-heading"> Upcomming Events!</h1>
+            <hr class="divider-section">
             <!--card event 1-->
             <div class="row d-flex justify-content-center">
-                <div class="col-sm-12 col-md-3 mb-3 mx-2">
+                <div class="col-sm-12 col-lg-3 d-flex justify-content-center mb-3 mx-2">
                     <div class="card h-100 shadow rounded" style="width: 18rem;">
-                        <img src="assets/img/event1.png" class="card-img-top card-event-style" alt="girls in thech hackathon">
+                         <!-- CREDIT: Icons made by "https://www.freepik.com" and customised in photoshop-->
+                        <img src="assets/img/event1.png" class="card-img-top card-event-style"
+                            alt="girls in thech hackathon">
                         <div class="card-body">
                             <h5 class="card-title text-center event-style">Girls in Tech Hackathon</h5>
                             <p><strong>Fri, May 15-17, 17:00-16:30 GMT</strong></p>
-                            <p class="card-text">Take a part of collaborative virtual computer programming challenge with other girls. Learn how to work together in teams and share your thoughts and ideas</p>
-                            <a href="#" class="btn btn-primary d-flex justify-content-center">Participate</a>
+                            <p class="card-text">Take a part of collaborative virtual computer programming challenge
+                                with other girls. Learn how to work together in teams and share your thoughts and ideas
+                            </p>
+                            <button type="button" class="btn btn-primary d-flex justify-content-center" data-toggle="modal"
+                                data-target="#participateModal">
+                                Participate
+                            </button>
                         </div>
                     </div>
                 </div>
 
                 <!--card event 2-->
-                <div class="col-sm-12 col-md-3 mb-3 mx-2">
-                     <div class="card h-100 shadow rounded " style="width: 18rem;">
+                <div class="col-sm-12 col-lg-3 d-flex justify-content-center mb-3 mx-2">
+                    <div class="card h-100 shadow rounded " style="width: 18rem;">
+                        <!-- CREDIT: Icons made by "https://www.freepik.com"-->
                         <img src="assets/img/event2.jpg" class="card-img-top" alt="the girl with laptop">
                         <div class="card-body">
                             <h5 class="card-title text-center event-style">JavaScript fundamentals</h5>
                             <p><strong>Sat, May 22, 09:00-16:00 GMT</strong></p>
-                            <p class="card-text">Build your own first game and learn JavaScript in easy and enjoyable way. Online course for girls and that will guide you through the fundamentals. </p>
-                            <a href="#" class="btn btn-sm btn-primary d-flex justify-content-center margin-top">Participate</a>
+                            <p class="card-text">Build your own first game and learn JavaScript in easy and enjoyable
+                                way. Online course for girls and that will guide you through the fundamentals. </p>
+                            <button type="button" class="btn btn-primary d-flex justify-content-center" data-toggle="modal"
+                                data-target="#participateModal">
+                                Participate
+                            </button>
                         </div>
                     </div>
                 </div>
 
                 <!--card event 3-->
-                <div class="col-sm-12 col-md-3 mb-3 mx-2">
-                     <div class="card h-100 shadow rounded" style="width: 18rem;">
+                <div class="col-sm-12 col-lg-3 d-flex justify-content-center mb-3 mx-2">
+                    <div class="card h-100 shadow rounded" style="width: 18rem;">
+                        <!-- CREDIT: Icons made by "https://www.freepik.com" and customised in photoshop-->
                         <img src="assets/img/event3.png" class="card-img-top" alt="a teacher at the board">
                         <div class="card-body">
                             <h5 class="card-title text-center event-style">HTML & CSS workshop</h5>
                             <p><strong>Sat, June 5-6, 09:30-17:00 GMT</strong></p>
-                            <p class="card-text">Take a part of this workshop and make your own first website. The great entry points to the world of code and are necessary languages for any developer or web designer to know </p>
-                            <a href="#" class="btn btn-primary d-flex justify-content-center">Participate</a>
+                            <p class="card-text">Take a part of this workshop and make your own first website. The great
+                                entry points to the world of code and are necessary languages for any developer or web
+                                designer to know </p>
+                            <button type="button" class="btn btn-primary d-flex justify-content-center" data-toggle="modal"
+                                data-target="#participateModal">
+                                Participate
+                            </button>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
         <!--end events cards-->
-   </section>
-    <hr />
+    </section>
+    <!--end of Post Model section-->
+    <hr class="divider-section" />
+
+    <!--Modal for participate buttons-->
+    <div class="modal fade" id="participateModal" tabindex="-1" aria-labelledby="participateModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body text-center">
+                    Thank you for signing up!<span>&#10084;</span>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--end modal-->
 
     <!-- Footer-->
-        <footer class="footer-wrapper position-relative">
-            <div class="container text-white mt-5 py-3">
-                <div class="row align-items-center">
-                    <div class="col-5">
-                        <a class="navbar-brand" href="index.html">
-                            <div class="d-flex align-items-center">
-                                <img src="assets/img/logo/logo-icon.png" alt="Command Girl logo" height="60">
-                                <div class="logo-name--footer ml-2 d-none d-md-inline-block">Command<br>Girl</div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-7 text-center">
-                        <h5>Follow Us</h5>
-                        <ul class="list-inline social-links">
-                            <li class="list-inline-item mr-0">
-                                <a href="http://www.facebook.com" target="_blank">
-                                    <i class="fab fa-facebook-f" aria-hidden="true"></i>
-                                    <span class="sr-only">Facebook</span>
-                                </a>
-                            </li>
-                            <li class="list-inline-item mr-0">
-                                <a href="http://www.twitter.com" target="_blank">
-                                    <i class="fab fa-twitter" aria-hidden="true"></i>
-                                    <span class="sr-only">Twitter</span>
-                                </a>
-                            </li>
-                            <li class="list-inline-item mr-0">
-                                <a href="http://www.linkedin.com" target="_blank">
-                                    <i class="fab fa-linkedin-in" aria-hidden="true"></i>
-                                    <span class="sr-only">LinkedIn</span>
-                                </a>
-                            </li>
-                            <li class="list-inline-item mr-0">
-                                <a href="http://www.instagram.com" target="_blank">
-                                    <i class="fab fa-instagram" aria-hidden="true"></i>
-                                    <span class="sr-only">Instagram</span>
-                                </a>
-                            </li>
-                            <li class="list-inline-item mr-0">
-                                <a href="http://www.youtube.com" target="_blank">
-                                    <i class="fab fa-youtube" aria-hidden="true"></i>
-                                    <span class="sr-only">Youtube</span>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
+    <footer class="footer-wrapper position-relative">
+        <div class="container text-white mt-5 py-3">
+            <div class="row align-items-center">
+                <div class="col-5">
+                    <a class="navbar-brand" href="index.html">
+                        <div class="d-flex align-items-center">
+                            <img src="assets/img/logo/logo-icon.png" alt="Command Girl logo" height="60">
+                            <div class="logo-name--footer ml-2 d-none d-md-inline-block">Command<br>Girl</div>
+                        </div>
+                    </a>
                 </div>
-                <p class="text-center">Copyright © 2021, Command Girl. All rights reserved.</p>
+                <div class="col-7 text-center">
+                    <h5>Follow Us</h5>
+                    <ul class="list-inline social-links">
+                        <li class="list-inline-item mr-0">
+                            <a href="http://www.facebook.com" target="_blank">
+                                <i class="fab fa-facebook-f" aria-hidden="true"></i>
+                                <span class="sr-only">Facebook</span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item mr-0">
+                            <a href="http://www.twitter.com" target="_blank">
+                                <i class="fab fa-twitter" aria-hidden="true"></i>
+                                <span class="sr-only">Twitter</span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item mr-0">
+                            <a href="http://www.linkedin.com" target="_blank">
+                                <i class="fab fa-linkedin-in" aria-hidden="true"></i>
+                                <span class="sr-only">LinkedIn</span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item mr-0">
+                            <a href="http://www.instagram.com" target="_blank">
+                                <i class="fab fa-instagram" aria-hidden="true"></i>
+                                <span class="sr-only">Instagram</span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item mr-0">
+                            <a href="http://www.youtube.com" target="_blank">
+                                <i class="fab fa-youtube" aria-hidden="true"></i>
+                                <span class="sr-only">Youtube</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </footer>
+            <p class="text-center">Copyright © 2021, Command Girl. All rights reserved.</p>
+        </div>
+    </footer>
+
+
+    <!--script for modal-->
+    <script>
+        $('#myModal').on('shown.bs.modal', function () {
+            $('#myInput').trigger('focus')
+        })
+    </script>
+
+
     <!-- Bootstrap core JS-->
+  
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Core theme JS-->
