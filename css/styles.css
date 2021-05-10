@@ -11,7 +11,7 @@ body {
   background-color: #fff;
 }
 
-/* colors, headings, buttons, spacing */
+/* colors, headings, buttons, spacing, divider */
 .btn-primary {
   background-color: #6eb9ff;
   border-color: transparent;
@@ -23,22 +23,36 @@ body {
   font-weight: 600;
 }
 .btn-primary:hover {
-  background-color: #d978ff;
+  background-color: #FAA2FB;
   border-color: transparent;
   color: #6efffa;
 }
-h2 {
+h1 {
+  background: -webkit-linear-gradient(90deg,rgba(110, 255, 250, 1) 0%,rgba(217, 120, 255,1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+} 
+h2, h3 {
   color: #6eb9ff;
   font-weight: 600;
 }
-h3 {
-  color: #6eb9ff;
-  font-weight: 600;
+span.heading-small {
+  color: #212529;
+  font-size: 1rem;
 }
 section {
   padding-top: 5rem;
 }
-
+.divider-short {
+  width: 40%;
+  border-top: 1px solid #6eb9ff;
+}
+.divider-section {
+  width: 80%;               
+  background: linear-gradient(90deg,rgba(110, 255, 250, 1) 0%,rgba(217, 120, 255,1) 100%);
+  height: 2px;
+  margin-top: 5rem;
+}
 /* navbar */
 .logo-name {
   background: -webkit-linear-gradient(90deg,rgba(110, 255, 250, 1) 0%,rgba(217, 120, 255,1) 100%);
@@ -65,11 +79,11 @@ section {
   font-weight: 600;
 }
 .navbar-nav .nav-link:hover {
-  color: #d978ff;
+  color: #FAA2FB;
 }
 .nav-link.active {
-  color: #d978ff;
-  border-bottom: 1px solid #d978ff;
+  color: #FAA2FB;
+  border-bottom: 1px solid #FAA2FB;
 }
 
 /* jumbotron */
@@ -88,8 +102,7 @@ section {
   left: 0;
   bottom: 0;
   right: 0;
-  background-image: radial-gradient(at center center, #fde28b 0%, #181818 100%);
-  opacity: 0.6;
+  background-color: rgba(0, 0, 0, 0.6);
 }
 .hero-section .container {
   z-index: 1;
@@ -98,6 +111,11 @@ section {
 /* forms */
 input:invalid {
     border: 2px solid rgb(255, 0, 0);
+}
+#signInForm .form-control {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* footer */
@@ -134,4 +152,14 @@ input:invalid {
 .social-links i:hover {
   background-color: #d978ff;
   border-color: #d978ff;
+}
+
+/* Mentor page */
+.partner-heading {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h5 {
+  color: #6eb9ff;
 }
