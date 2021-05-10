@@ -24,24 +24,25 @@ This website consists of the following sections:
     <li>Events – section 1: text about all options / section 2: all Events with participate button.
     <li>Mentors – this section provides information about each Mentor and a button to contact.
     <li>Contact – this section provide a contact form.
-    <li>Sign Up - ....................
+    <li>Sign Up - this section provides a form to sign up.
 </ul>
 
 ## Structure
 <ul>
-    <li>Header - left: logo and title, right: menu items.
+    <li>Header - left: logo and title, right: menu items/button.
     <li>Footer - left: logo, right: social media icons, bottum: copyright.
     <li>Landing Page - section 1: text, form fields and button / section 2: text and buttons.
     <li>Event Page - section 1: text / section 2: three sections with events and buttons.
     <li>Mentor Page - section 1: text / section 2: all Mentors vertical aligned.
     <li>Contact Page - titles, contact form, button.
+    <li>Sign Up Page - title, text, form, button.
 </ul>
 
 ## Skeleton
 <ul>
     <li>Header<br>
     Left: logo and title with link to homepage.
-    Right: menu items: Home, Events, Mentors, Contact, Sign Up, linked to the right page.
+    Right: menu items: Home, Events, Mentors, Contact, Sign Up button, linked to the right page.
     <li>Footer<br>
     Left: logo and title with link to homepage.
     Right: text and social media icons linked to the right external website.
@@ -57,17 +58,20 @@ This website consists of the following sections:
     Section 1: four sections with information.
     Section 2: title, five sections with the Mentors, each Mentor: image, button linked to contact page, name title, information text.
     <li>Contact<br>
-    Title, text, form field, button with mailto. Field 2: name, field 2: email, field 3: mentor drop down menu, field 4: message.
+    Title, text, form field, button with mailto. Field 1: name, field 2: email, field 3: mentor drop down menu, field 4: message.
+    <li>Sign Up<br>
+    Title, text, form field, button. Field 1: name, field 2: email, field 3: message.
 </ul>
 <ul>
     <li>All title and text family font: Open Sans
     <li>Color blue: #6eb9ff
     <li>Color blue/pink: RGB 110, 255, 250 (blue) + RGB 217, 120, 255 (pink)
+    <li>All pages: back to top icon.
 </ul>
 
 ## Surface
 <ul>
-    <li>Header - color: white, logo and title: blue/pink, menu: blue, active page: pink.
+    <li>Header - color: white, logo and title: blue/pink, menu: blue, active page: pink, button: blue with white text.
     <li>Footer - color: blue/pink, logo: blue/pink, title: white, copyright: white, social media icons: white, follow us text: blue.
     <li>Homepage part 1 - full with background image, title: blue/pink, text: white, form fields: white, button: blue with white text, sign up link: blue.
     <li>Homepage part 2 - background: white, text color: black, title color: blue, buttons: blue with white text.
@@ -76,6 +80,7 @@ This website consists of the following sections:
     <li>Mentors part 1 - background: white, titles + icons: blue, text black.
     <li>Mentors part 2 - background: white, title: blue/pink, oval Mentor image, button: blue with white text, name titles: blue, text black, line between each Mentor: blue/pink.
     <li>Contact - background: white, title: blue/pink, text: black, form fields: white, button: blue with white text.
+    <li>Sign Up - background: white, title: blue/pink, text: black, form fields: white, button: blue with white text.
 </ul>
 
 ## Mockups & Wireframes
@@ -157,7 +162,7 @@ The following steps show how you can clone my repository:
 # Credits
 
 ## Content
-The full content is made up and written by the Command Girl Team.
+Content from <a href="https://www.women-in-tech-dublin.com/">Women in Tech Dublin</a>.
 
 ## Media
 <ul>
@@ -165,6 +170,3 @@ The full content is made up and written by the Command Girl Team.
     <li>The logo was created by <a href="https://www.flaticon.com/">Flaticon</a>.
     <li>The used icons are from <a href="https://fontawesome.com/">FontAwesome</a>.
 </ul>
-
-## Acknowledgements
-I used a lot of general knowledge from <a href="https://www.w3schools.com">w3schools</a>.
