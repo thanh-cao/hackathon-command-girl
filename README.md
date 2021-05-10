@@ -4,16 +4,13 @@
 
 ### User Stories
 
-Viewing and Navigation by Site User
-<ul>
-	<li>View a list of all the Mentors
-    <li>Option to contact a Mentor
-	<li>View a list of all the upcoming Events
-    <li>Option to participate to a Event
-    <li>Contact a Mentor via a form
-    <li>A place to Sign In
-    <li>Partner Up
-</ul>
+<strong>Mentees</strong><br>
+As a user I want to connect with girls and women working, studying or interested in Tech<br>
+As a user I want guidance navigating the world of Tech through a female lense.<br>
+<br>
+<strong>Mentors</strong><br>
+As a user I want to help and provide guidance to girls and women working, studying, or interested in Tech by offering my help and sharing my experience to date.<br>
+As a user I want to build my network of girls and women in Tech<br>
 
 ## Strategy
 Command Girl provides a safe platform to enable young girls te be confident, independent, and t thrive in the challenging yet exciting coding journey. <br>
@@ -27,6 +24,7 @@ This website consists of the following sections:
     <li>Events – section 1: text about all options / section 2: all Events with participate button.
     <li>Mentors – this section provides information about each Mentor and a button to contact.
     <li>Contact – this section provide a contact form.
+    <li>Sign Up - ....................
 </ul>
 
 ## Structure
@@ -62,7 +60,7 @@ This website consists of the following sections:
     Title, text, form field, button with mailto. Field 2: name, field 2: email, field 3: mentor drop down menu, field 4: message.
 </ul>
 <ul>
-    <li>All title and text font: same font family
+    <li>All title and text family font: Open Sans
     <li>Color blue: #6eb9ff
     <li>Color blue/pink: RGB 110, 255, 250 (blue) + RGB 217, 120, 255 (pink)
 </ul>
@@ -102,7 +100,7 @@ The following wireframes were created using ...... to design the website layout 
 ## Frameworks / Tools / Libraries
 <ul>
     <li><a href="#">.....</a> for the mockups.
-    <li><a href="https://getbootstrap.com/">Bootstrap</a> for ......
+    <li><a href="https://getbootstrap.com/">Bootstrap</a> for the theme.
 </ul>
 
 ## Testing
@@ -159,10 +157,14 @@ The following steps show how you can clone my repository:
 # Credits
 
 ## Content
-The full content is made up and written by ......
+The full content is made up and written by the Command Girl Team.
 
 ## Media
-The photos used in this website were obtained from <a href="#">......</a>.
+<ul>
+    <li>The photos used in this website were obtained from <a href="https://www.freepik.com/">Freepik</a>.
+    <li>The logo was created by <a href="https://www.flaticon.com/">Flaticon</a>.
+    <li>The used icons are from <a href="https://fontawesome.com/">FontAwesome</a>.
+</ul>
 
 ## Acknowledgements
 I used a lot of general knowledge from <a href="https://www.w3schools.com">w3schools</a>.
