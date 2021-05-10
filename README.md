@@ -74,12 +74,12 @@ This website consists of the following sections:
 <ul>
     <li>Header - color: white, logo and title: blue/pink, menu: blue, active page: pink, button: blue with white text.
     <li>Footer - color: blue/pink, logo: blue/pink, title: white, copyright: white, social media icons: white, follow us text: blue.
-    <li>Homepage part 1 - full with background image, title: blue/pink, text: white, form fields: white, button: blue with white text, sign up link: blue.
-    <li>Homepage part 2 - background: white, text color: black, title color: blue, buttons: blue with white text.
-    <li>Events part 1 - background: white, titles + icons: blue, text black, line in between parts.
-    <li>Events part 2 - background: white, title: blue/pink, each Event: box shadow, image, title: blue, date: bold black, text: black, botton: blue with white text.
-    <li>Mentors part 1 - background: white, titles + icons: blue, text black.
-    <li>Mentors part 2 - background: white, title: blue/pink, oval Mentor image, button: blue with white text, name titles: blue, text black, line between each Mentor: blue/pink.
+    <li>Homepage section 1 - full with background image, title: blue/pink, text: white, form fields: white, button: blue with white text, sign up link: blue.
+    <li>Homepage section 2 - background: white, text color: black, title color: blue, buttons: blue with white text.
+    <li>Events section 1 - background: white, titles + icons: blue, text black, line in between parts.
+    <li>Events section 2 - background: white, title: blue/pink, each Event: box shadow, image, title: blue, date: bold black, text: black, botton: blue with white text.
+    <li>Mentors section 1 - background: white, titles + icons: blue, text black.
+    <li>Mentors section 2 - background: white, title: blue/pink, oval Mentor image, button: blue with white text, name titles: blue, text black, line between each Mentor: blue/pink.
     <li>Contact - background: white, title: blue/pink, text: black, form fields: white, button: blue with white text.
     <li>Sign Up - background: white, title: blue/pink, text: black, form fields: white, button: blue with white text.
 </ul>
@@ -142,7 +142,7 @@ Note: the landing page must be named index.html.
 ## Clone and contribute
 The following steps show how you can clone my repository:
 <ol>
-    <li>In GitHub go to <a href="https://github.com/kimkesdev/DogMassagePluto">my repository</a>;
+    <li>In GitHub go to <a href="https://thanh-cao.github.io/hackathon-command-girl/index.html">my repository</a>;
     <li>Press the <strong>Fork</strong> button on the right top of the page, to create a copy of the repository in your own GitHub account;
     <li>On your GitHub account, open the forked repository and click on the green <strong>Clone or Download</strong> button;
     <li>In the Clone with HTTPS section you can copy the repository url;
