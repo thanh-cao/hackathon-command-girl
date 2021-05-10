@@ -1,6 +1,6 @@
 # Command Girl
 
-## UX Design
+# UX Design
 
 ### User Stories
 
@@ -84,15 +84,8 @@ This website consists of the following sections:
     <li>Sign Up - background: white, title: blue/pink, text: black, form fields: white, button: blue with white text.
 </ul>
 
-## Mockups & Wireframes
-The following wireframes were created using ...... to design the website layout options:
-<ul>
-    <li><a href="#">Mobile display</a>
-    <li><a href="#">IPad display</a>
-    <li><a href="#">Laptop display</a>
-</ul>
-
-## Features
+## Wireframes
+The following <a href="https://www.figma.com/file/ZqjHGsvwmghHtp0nhh4hF1/WiT-Hackathon?node-id=0%3A1">wireframes</a> were created to design the website layout.
 
 # Technologies 
 
@@ -105,7 +98,7 @@ The following wireframes were created using ...... to design the website layout 
 
 ## Frameworks / Tools / Libraries
 <ul>
-    <li><a href="#">.....</a> for the mockups.
+    <li><a href="https://www.figma.com/">Figma</a> for the wireframes.
     <li><a href="https://getbootstrap.com/">Bootstrap</a> for the theme.
 </ul>
 
