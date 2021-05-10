@@ -8,29 +8,30 @@ Viewing and Navigation by Site User
 <ul>
 	<li>View a list of all the Mentors
 	<li>View a list of all the upcoming Events
-    <li>Contact a Mentor
+    <li>Contact a Mentor via a form
+    <li>A place to Sign In
+    <li>Partner Up
 </ul>
 
 ## Strategy
-This website is designed for young female developers. <br>
+Command Girl provides a safe platform to enable young girls te be confident, independent, and t thrive in the challenging yet exciting coding journey. <br>
 The Site User can view the upcoming Events and see the Mentors.<br>
 The Site User can contact a Mentor trought the contact form.
 
 ## Scope
 This website consists of the following sections:
-<ol>
-    <li><strong>Home</strong> – this section provides the reader .....
-    <li><strong>Events</strong> – this section provides .......
-    <li><strong>Mentors</strong> – this section provides......
-    <li><strong>Contact</strong> – this section provide a contact form.
-</ol>
+<ul>
+    <li>Home – section 1: place to sign in or sign up / section 2: info about events, growth and partner up.
+    <li>Events – this section provides .......
+    <li>Mentors – this section provides......
+    <li>Contact – this section provide a contact form.
+</ul>
 
 ## Structure
 <ul>
-    <li>Header:    
-    <li>Navbar:      
-    <li>Footer: social media icons     
-    <li>Landing Page: Part 1 / part 2     
+    <li>Header - left: logo and title, right: menu items.
+    <li>Footer - left: logo, right: social media icons, bottum: copyright.
+    <li>Landing Page - part 1: text, form fields and button / part 2: text and buttons.
     <li>Event Page: all Events
     <li>Mentor Page: all Mentors
     <li>Contact Page: contact form
@@ -38,13 +39,20 @@ This website consists of the following sections:
 
 ## Skeleton
 <ul>
-    <li><strong>Header</strong><br>
-    ........
-    <li><strong>Events</strong><br>
+    <li>Header<br>
+    Left: logo and title with link to homepage.
+    Right: menu items: Home, Events, Mentors, Contact, Sign Up, linked to the right page.
+    <li>Footer<br>
+
+    <li>Home Page<br>
+    Part 1: form field. Field 1: Email, field 2: password, button: sign in, text link: sign up.
+    Part 2: learning part button linked to events page, growth part button linked to mentors page, partner up part button linked to pop up contact form.
+    Pop up form: form field. Field 1: name, field 2: company/organization, field 3: phone number, field 4: email, field 5: message, button to send form, exit button to close form.
+    <li>Events<br>
     .......
-    <li><strong>Mentors</strong><br>
+    <li>Mentors<br>
     ......
-    <li><strong>Contact</strong><br>
+    <li>Contact<br>
     ....
 </ul>
 <ul>
@@ -55,11 +63,10 @@ This website consists of the following sections:
 
 ## Surface
 <ul>
-    <li>Titles font family: 
-    <li>Text font family: 
-    <li>Header, titles and footer section color = 
-    <li>Section color = 
-    <li>Text color = 
+    <li>Header: color white, logo and title: blue/pink, menu: blue, active page: pink.
+    <li>Footer: color: blue/pink, logo: blue/pink, title: white, copyright: white, social media icons: white, follow us text: blue.
+    <li>Homepage part 1: full with background image, title: blue/pink, text: white, form fields: white, button: blue, sign up link: blue.
+    <li>Homepage part 2: background: white, text color: black, title color: blue, buttons: blue with white text.
 </ul>
 
 ## Mockups & Wireframes
