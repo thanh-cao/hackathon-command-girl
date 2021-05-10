@@ -15,6 +15,7 @@ $(document).ready(function(){
     }
 
     // prevents multiple whitespace input in forms
+
     $("input").on("keydown", function (e) {
         var inputValue = $("input").val();
         if (inputValue.length == 0 || inputValue.slice(-1) == " ") {
@@ -30,5 +31,10 @@ $(document).ready(function(){
 });
 
 $('.navbar-nav>li>a').on('click', function () {
-     $('.navbar-collapse').collapse('hide');
+    $('.navbar-collapse').collapse('hide');
+});
+
+$('#partnerContactForm, #mentorContactForm, #signUpForm').on('submit', function (e) {
+    $('#messageSentModal').modal('show');
+    e.preventDefault();
 });
