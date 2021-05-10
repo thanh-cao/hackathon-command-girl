@@ -17,7 +17,7 @@ $('.navbar-nav>li>a').on('click', function () {
     $('.navbar-collapse').collapse('hide');
 });
 
-$('#partnerContactForm, #mentorContactForm').on('submit', function (e) {
+$('#partnerContactForm, #mentorContactForm, #signUpForm').on('submit', function (e) {
     $('#messageSentModal').modal('show');
     e.preventDefault();
 });
