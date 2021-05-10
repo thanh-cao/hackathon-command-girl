@@ -40,7 +40,7 @@
             <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                 <ul class="navbar-nav align-items-end align-items-md-center">
                     <li class="nav-item">
-                        <a class="nav-link active" href="index.html">Home</a>
+                        <a class="nav-link" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="events.html">Events</a>
@@ -49,7 +49,7 @@
                         <a class="nav-link" href="mentors.html">Mentors</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
+                        <a class="nav-link active" href="contact.html">Contact</a>
                     </li>
                     <li class="nav-item">
                         <a href="sign-up.html" class="nav-link d-inline-block d-md-none" role="button">Sign Up</a>
@@ -81,20 +81,18 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-md-10 mx-auto">
-
                     <form action="mailto:someone@example.com" method="post" enctype="text/plain"><br>
-                        <input class="form-control" id="name" type="text" name="name" placeholder="Name" required><br>
-                        <input class="form-control" id="mail" type="text" name="mail" placeholder="Email" required><br>
+                        <input class="form-control" id="name" type="text" name="name" placeholder="Name" pattern="([A-zÀ-ž\s]){2,}" required><br>
+                        <input class="form-control" id="mail"  type="text" name="mail" placeholder="Email" required><br>
                         <label for="mentor">Choose your Mentor</label>
-                        <select class="form-control" id="mentor" name="mentor">
-                            <option value="evka">Evka</option>
-                            <option value="kim">Kim</option>
-                            <option value="louis">Louis</option>
-                            <option value="thanh">Thanh</option>
-                            <option value="vanessa">Vanessa</option>
-                        </select><br>
-                        <textarea class="form-control" id="message" name="message" rows="5" placeholder="Message"
-                            required></textarea><br>
+                            <select class="form-control" id="mentor" name="mentor">
+                                <option value="evka">Evka</option>
+                                <option value="kim">Kim</option>
+                                <option value="louis">Louis</option>
+                                <option value="thanh">Thanh</option>
+                                <option value="vanessa">Vanessa</option>
+                            </select><br>
+                        <textarea class="form-control" id="message" name="message" rows="5" placeholder="Message" minlength="10" required></textarea><br>                       
                         <input type="submit" value="Send" button class="btn btn-primary" id="sendMessageButton">
                     </form>
                 </div>

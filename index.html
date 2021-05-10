@@ -116,9 +116,9 @@
             <h2>Partner Up?</h2>
             <p>Want to join us in making tech world even more awesome? Let us know what you have in mind and take it
                 from there.</p>
-            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#partnerModal">
-                Give us a shout!
-            </button>
+
+            <button type="button" data-toggle="modal" data-target="#partnerModal" class="btn btn-primary">Give us a
+                shout</button>
         </section>
         <!-- end partner up -->
         <!-- Partner up modal-->
@@ -135,15 +135,15 @@
                     <div class="modal-body">
                         <form id="partnerContactForm">
                             <input class="form-control mb-2" type="text" name="partnerName" id="partnerName"
-                                aria-label="Full name" placeholder="Name &#42;" required>
+                                aria-label="Full name" placeholder="Name &#42;" pattern="([A-zÀ-ž\s]){2,}" required>
                             <input class="form-control mb-2" type="text" name="partnerOrganization"
                                 id="partnerOrganization" aria-label="Partner Organization"
-                                placeholder="Company / Organization &#42;" required>
+                                placeholder="Company / Organization &#42;" minlength="2" required>
                             <input class="form-control mb-2" type="tel" name="phone" id="phone"
-                                aria-label="Phone number" placeholder="Phone &#42;" required>
+                                aria-label="Phone number" placeholder="Phone &#42;" pattern="[0-9]{6}" required>
                             <input class="form-control mb-2" type="email" name="email" id="email"
                                 aria-label="Email address" placeholder="Email &#42;" required>
-                            <textarea class="form-control" rows="5" placeholder="Message &#42;" required></textarea>
+                            <textarea class="form-control" rows="5" placeholder="Message &#42;" minlength="10" required></textarea>
                             <input type="submit" class="btn btn-primary mt-3" value="Send">
                         </form>
                     </div>
@@ -204,9 +204,6 @@
                 <p class="text-center">Copyright © 2021, Command Girl. All rights reserved.</p>
             </div>
         </footer>
-
-
-
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
             integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
             crossorigin="anonymous"></script>
@@ -216,6 +213,7 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
             integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
             crossorigin="anonymous"></script>
+        <script src="js/script.js"></script>
 </body>
 
 </html>
