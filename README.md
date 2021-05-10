@@ -1,6 +1,6 @@
 # Command Girl
 
-## UX Design
+# UX Design
 
 ### User Stories
 
@@ -41,21 +41,22 @@ This website consists of the following sections:
 ## Skeleton
 <ul>
     <li>Header<br>
-    Left: logo and title with link to homepage.
+    Left: logo and title with link to homepage.<br>
     Right: menu items: Home, Events, Mentors, Contact, Sign Up button, linked to the right page.
     <li>Footer<br>
     Left: logo and title with link to homepage.
     Right: text and social media icons linked to the right external website.
     Bottom: copyright text.
     <li>Home Page<br>
-    Section 1: form field. Field 1: Email, field 2: password, button: sign in, text link: sign up.
-    Section 2: learning part button linked to events page, growth part button linked to mentors page, partner up part button linked to pop up contact form.
+    Section 1: form field. Field 1: Email, field 2: password, button: sign in, text link: sign up.<br>
+    Section 2: learning part button linked to events page, growth part button linked to mentors page, partner up part button linked to pop up contact form.<br>
     Pop up form: form field. Field 1: name, field 2: company/organization, field 3: phone number, field 4: email, field 5: message, button to send form, exit button to close form.
     <li>Events<br>
-    Section 1: four sections with information.
-    Section 2: three sections with Events and a button to participate.
+    Section 1: four sections with information.<br>
+    Section 2: three sections with Events and a button to participate, linked to pop up. <br>
+    Pop up: thank you text, button and icon to close.
     <li>Mentors<br>
-    Section 1: four sections with information.
+    Section 1: four sections with information.<br>
     Section 2: title, five sections with the Mentors, each Mentor: image, button linked to contact page, name title, information text.
     <li>Contact<br>
     Title, text, form field, button with mailto. Field 1: name, field 2: email, field 3: mentor drop down menu, field 4: message.
@@ -83,15 +84,8 @@ This website consists of the following sections:
     <li>Sign Up - background: white, title: blue/pink, text: black, form fields: white, button: blue with white text.
 </ul>
 
-## Mockups & Wireframes
-The following wireframes were created using ...... to design the website layout options:
-<ul>
-    <li><a href="#">Mobile display</a>
-    <li><a href="#">IPad display</a>
-    <li><a href="#">Laptop display</a>
-</ul>
-
-## Features
+## Wireframes
+The following <a href="https://www.figma.com/file/ZqjHGsvwmghHtp0nhh4hF1/WiT-Hackathon?node-id=0%3A1">wireframes</a> were created to design the website layout.
 
 # Technologies 
 
@@ -104,7 +98,7 @@ The following wireframes were created using ...... to design the website layout 
 
 ## Frameworks / Tools / Libraries
 <ul>
-    <li><a href="#">.....</a> for the mockups.
+    <li><a href="https://www.figma.com/">Figma</a> for the wireframes.
     <li><a href="https://getbootstrap.com/">Bootstrap</a> for the theme.
 </ul>
 
