@@ -7,7 +7,9 @@
 Viewing and Navigation by Site User
 <ul>
 	<li>View a list of all the Mentors
+    <li>Option to contact a Mentor
 	<li>View a list of all the upcoming Events
+    <li>Option to participate to a Event
     <li>Contact a Mentor via a form
     <li>A place to Sign In
     <li>Partner Up
@@ -16,14 +18,14 @@ Viewing and Navigation by Site User
 ## Strategy
 Command Girl provides a safe platform to enable young girls te be confident, independent, and t thrive in the challenging yet exciting coding journey. <br>
 The Site User can view the upcoming Events and see the Mentors.<br>
-The Site User can contact a Mentor trought the contact form.
+The Site User can contact a Mentor or participate to a Event.
 
 ## Scope
 This website consists of the following sections:
 <ul>
     <li>Home – section 1: place to sign in or sign up / section 2: info about events, growth and partner up.
-    <li>Events – this section provides .......
-    <li>Mentors – this section provides......
+    <li>Events – section 1: text about all options / section 2: all Events with participate button.
+    <li>Mentors – this section provides information about each Mentor and a button to contact.
     <li>Contact – this section provide a contact form.
 </ul>
 
@@ -31,10 +33,10 @@ This website consists of the following sections:
 <ul>
     <li>Header - left: logo and title, right: menu items.
     <li>Footer - left: logo, right: social media icons, bottum: copyright.
-    <li>Landing Page - part 1: text, form fields and button / part 2: text and buttons.
-    <li>Event Page: all Events
-    <li>Mentor Page: all Mentors
-    <li>Contact Page: contact form
+    <li>Landing Page - section 1: text, form fields and button / section 2: text and buttons.
+    <li>Event Page - section 1: text / section 2: three sections with events and buttons.
+    <li>Mentor Page - section 1: text / section 2: all Mentors vertical aligned.
+    <li>Contact Page - titles, contact form, button.
 </ul>
 
 ## Skeleton
@@ -43,30 +45,39 @@ This website consists of the following sections:
     Left: logo and title with link to homepage.
     Right: menu items: Home, Events, Mentors, Contact, Sign Up, linked to the right page.
     <li>Footer<br>
-
+    Left: logo and title with link to homepage.
+    Right: text and social media icons linked to the right external website.
+    Bottom: copyright text.
     <li>Home Page<br>
-    Part 1: form field. Field 1: Email, field 2: password, button: sign in, text link: sign up.
-    Part 2: learning part button linked to events page, growth part button linked to mentors page, partner up part button linked to pop up contact form.
+    Section 1: form field. Field 1: Email, field 2: password, button: sign in, text link: sign up.
+    Section 2: learning part button linked to events page, growth part button linked to mentors page, partner up part button linked to pop up contact form.
     Pop up form: form field. Field 1: name, field 2: company/organization, field 3: phone number, field 4: email, field 5: message, button to send form, exit button to close form.
     <li>Events<br>
-    .......
+    Section 1: four sections with information.
+    Section 2: three sections with Events and a button to participate.
     <li>Mentors<br>
-    ......
+    Section 1: four sections with information.
+    Section 2: title, five sections with the Mentors, each Mentor: image, button linked to contact page, name title, information text.
     <li>Contact<br>
-    ....
+    Title, text, form field, button with mailto. Field 2: name, field 2: email, field 3: mentor drop down menu, field 4: message.
 </ul>
 <ul>
-    <li>All title font: same font family
-    <li>All text font: same font family
-    <li>Font and text color: ....
+    <li>All title and text font: same font family
+    <li>Color blue: #6eb9ff
+    <li>Color blue/pink: RGB 110, 255, 250 (blue) + RGB 217, 120, 255 (pink)
 </ul>
 
 ## Surface
 <ul>
-    <li>Header: color white, logo and title: blue/pink, menu: blue, active page: pink.
-    <li>Footer: color: blue/pink, logo: blue/pink, title: white, copyright: white, social media icons: white, follow us text: blue.
-    <li>Homepage part 1: full with background image, title: blue/pink, text: white, form fields: white, button: blue, sign up link: blue.
-    <li>Homepage part 2: background: white, text color: black, title color: blue, buttons: blue with white text.
+    <li>Header - color: white, logo and title: blue/pink, menu: blue, active page: pink.
+    <li>Footer - color: blue/pink, logo: blue/pink, title: white, copyright: white, social media icons: white, follow us text: blue.
+    <li>Homepage part 1 - full with background image, title: blue/pink, text: white, form fields: white, button: blue with white text, sign up link: blue.
+    <li>Homepage part 2 - background: white, text color: black, title color: blue, buttons: blue with white text.
+    <li>Events part 1 - background: white, titles + icons: blue, text black, line in between parts.
+    <li>Events part 2 - background: white, title: blue/pink, each Event: box shadow, image, title: blue, date: bold black, text: black, botton: blue with white text.
+    <li>Mentors part 1 - background: white, titles + icons: blue, text black.
+    <li>Mentors part 2 - background: white, title: blue/pink, oval Mentor image, button: blue with white text, name titles: blue, text black, line between each Mentor: blue/pink.
+    <li>Contact - background: white, title: blue/pink, text: black, form fields: white, button: blue with white text.
 </ul>
 
 ## Mockups & Wireframes
